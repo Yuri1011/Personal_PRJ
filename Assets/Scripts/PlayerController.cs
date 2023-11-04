@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour {
     private float horizontalInput;
     private float verticalInput;
     Vector3 curreentPosition;
-    private float minZ = -4.0f;
-    private float maxZ = 4.0f;
+    private float minZ = -5.0f;
+    private float maxZ = 5.0f;
     void Start() {
         playerRB = GetComponent<Rigidbody>();
     }
