@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveDown : MonoBehaviour {
-    private float speed = 5.0f;
+    private float speed = 10.0f;
     private float destroyRange = -10.0f;
     Rigidbody obstacleRB;
     void Start() {
